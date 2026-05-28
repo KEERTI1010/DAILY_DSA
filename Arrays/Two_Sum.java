@@ -32,5 +32,3 @@ class Two_sum {
         return new int[]{};
     }
 }    
-    }
-}
