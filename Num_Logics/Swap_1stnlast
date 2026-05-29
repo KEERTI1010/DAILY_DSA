@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+public class Main
+{
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int n = sc.nextInt();
+        
+        int last = n%10;
+        
+        int count = 1;
+        int dup = n;
+        
+        while(dup>=10){
+            dup=dup/10;
+            count=count*10;
+        }
+        
+        int first = dup;
+        int rem = n%count;
+        rem = rem/10;
+        System.out.println(last*count+rem*10+first);
+	}
+}
