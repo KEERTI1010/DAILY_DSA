@@ -45,6 +45,6 @@ public class Main {
         }
 		System.out.println(a);
 		or
-        System.out.println("GCD = " + a);
+        System.out.println("GCD = " + a); //The + operator is used to concatenate (join) strings and variables in Java. It helps us display text along with variable values in a single statement.
     }
 } */
