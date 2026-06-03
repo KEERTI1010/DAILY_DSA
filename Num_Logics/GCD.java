@@ -43,7 +43,8 @@ public class Main {
             b = a % b;
             a = temp;
         }
-
+		System.out.println(a);
+		or
         System.out.println("GCD = " + a);
     }
 } */
