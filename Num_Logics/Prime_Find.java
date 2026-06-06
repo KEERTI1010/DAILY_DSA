@@ -24,3 +24,38 @@ public class Prime_Find
 		}
 	}
 }
+
+
+// Better Version
+
+/*
+import java.util.Scanner;
+
+public class Main
+{
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+
+        int n = sc.nextInt();
+        
+        boolean isPrime = true;
+        
+        if (n<=2){
+            isPrime = false;
+        }
+        
+        for (int i=1; i<2; i++ ){
+            if( n % 2 == 0 ){
+                isPrime = false;
+                break;
+            }
+        }
+        if(isPrime){
+            System.out.println("its a Prime number");
+        }
+        else{
+            System.out.println("its not a Prime number");
+        }
+	}
+}
+*/
