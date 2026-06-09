@@ -1,5 +1,11 @@
 //  Write a program to check whether a given number is an Armstrong number or not....
 
+
+
+
+
+// Write a program to check whether a only a Three  number is an Armstrong number or not....
+/*
 import java.util.Scanner;
 
 public class Armstrong
@@ -25,4 +31,5 @@ public class Armstrong
 		}
 	}
 }
+*/
 
