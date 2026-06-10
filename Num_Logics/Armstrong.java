@@ -40,6 +40,7 @@ public class Armstrong
 
 // Write a program to check whether a only a Three  number is an Armstrong number or not....
 /*
+
 import java.util.Scanner;
 
 public class Armstrong
@@ -65,5 +66,14 @@ public class Armstrong
 		}
 	}
 }
+
 */
 
+
+/*
+How it works internally
+
+Math.pow() does not repeatedly multiply the number in a simple loop. Java's Math library 
+uses optimized mathematical algorithms involving logarithms and exponentiation to compute 
+powers efficiently, especially for large numbers and decimal exponents.
+*/
