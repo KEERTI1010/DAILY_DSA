@@ -1,6 +1,31 @@
 // Write a program to check whether a given number is prime or not.......
 
 import java.util.Scanner;
+public class Prime_Find
+{
+    public static boolean isPrime(int n){
+         if(n<=1){
+        return false;
+    }
+    
+    for(int i=2 ; i<n ; i++){
+        if (n % i == 0){
+            return false;
+        }
+    }
+    return true;
+    }
+        public static void main(String[] args) {
+	    Scanner sc = new Scanner (System.in);
+	    int n = sc.nextInt();
+	    
+		System.out.println(isPrime(n));
+	}
+}
+
+
+/*
+import java.util.Scanner;
 
 public class Prime_Find
 {
@@ -24,6 +49,7 @@ public class Prime_Find
 		}
 	}
 }
+*/
 
 
 // Better Version
