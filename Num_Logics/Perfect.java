@@ -1,4 +1,5 @@
 // Write a program to check whether a given number is a perfect number or not.......... 
+// A perfect number is a number whose value is equal to the sum of all its proper factors excluding itself. For example, 6 is a perfect number because 1 + 2 + 3 = 6
 
 import java.util.Scanner;
 
