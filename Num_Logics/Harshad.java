@@ -1,4 +1,5 @@
 //  Write a program to check whether a given number is a Harshad number or not............
+// A Harshad Number is a number that is divisible by the sum of its digits. For example, 18 is a Harshad Number because 1 + 8 = 9 and 18 is divisible by 9
 
 import java.util.Scanner;
 public class Harshad
