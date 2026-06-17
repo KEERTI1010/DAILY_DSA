@@ -8,7 +8,7 @@ public class Abundant
     public static boolean isAbundant(int n){
         int sum = 0;
         int dup = n;
-        for ( int i=1 ; i<n ; i++ ){
+        for(int i = 1; i<=n/2; i++){
         if (n%i==0){
             sum = sum+i ;
         }
