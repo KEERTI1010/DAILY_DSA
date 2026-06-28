@@ -9,8 +9,8 @@ public class Happy
 	public static boolean isHappy(int n){
 	    while ( n != 0 && n!= 4){
 	        int sum = 0;
-	        int digit = n%10;
 	        while(n>0){
+				int digit = n%10;
 	            sum = sum + (digit*digit);
 	            n=n/10;
 	        }
