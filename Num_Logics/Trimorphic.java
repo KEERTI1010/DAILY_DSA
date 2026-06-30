@@ -5,7 +5,8 @@
 
 /*
 1. For Single Digit
-*/
+
+
 import java.util.Scanner;
 public class Trimorphic
 {   
@@ -30,3 +31,38 @@ public class Trimorphic
 		}
 	}
 }
+*/
+
+// for all Numbers
+
+import java.util.Scanner;
+public class Main
+{   
+	public static boolean isTrimorpic(int n ){
+	        int cube = n*n*n;
+	        while(n > 0){
+
+            if(n % 10 != cube % 10){
+            return false;
+            }
+
+            n = n / 10;
+            cube = cube / 10;
+        }
+
+        return true;
+	}
+	
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int n = sc.nextInt();
+		
+		if (isTrimorpic(n)){
+		    System.out.println("Its is Trimorpic Num");
+		}
+		else{
+		    System.out.println("Its is not a Trimorpic Num");
+		}
+	}
+}
+
