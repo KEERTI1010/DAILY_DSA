@@ -36,7 +36,7 @@ public class Trimorphic
 // for all Numbers
 
 import java.util.Scanner;
-public class Main
+public class Trimorphic
 {   
 	public static boolean isTrimorpic(int n ){
 	        int cube = n*n*n;
