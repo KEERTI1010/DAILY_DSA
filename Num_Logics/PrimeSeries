@@ -1,0 +1,28 @@
+//  Write a program to find out all primes numbers present within a given range......
+
+// This program prints all prime numbers between the given start and end values by checking each number using the isPrime() function
+
+import java.util.Scanner;
+public class Main
+{
+	public static boolean isPrimeSeries(int n){
+	    for ( int i = 2 ; i < n ; i++ ){
+	        if ( n % i == 0){
+	            return false;
+	            }
+	        }
+	        return true ;
+	    }
+    
+	
+	public static void main(String[] args) {
+		Scanner sc = new Scanner ( System.in );
+		int a = sc.nextInt();
+		int b = sc.nextInt();
+		for ( int i=a ; i<b ; i++){
+		    if ( isPrimeSeries(i)){
+		        System.out.println(i);
+	        }
+		}
+	}
+}
