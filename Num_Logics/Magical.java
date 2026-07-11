@@ -2,7 +2,7 @@
 //  A Magic Number is a number whose repeated sum of digits ultimately becomes 1. For example, 1729 is a Magic Number because 1+7+2+9=19, 1+9=10, and 1+0=1
 
 import java.util.Scanner;
-public class Main
+public class Magical
 {
 	public static boolean isMagical(int n){
 	    do{
