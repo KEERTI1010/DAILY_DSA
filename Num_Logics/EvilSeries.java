@@ -21,7 +21,7 @@ public class EvilSeries
 		int b = sc.nextInt();
 		
 		for(int k=a ; k<=b ; k++){
-		    if(isEvilSeries()){
+		    if(isEvilSeries(k)){
 		        System.out.println(k);
 		    }
 		}
