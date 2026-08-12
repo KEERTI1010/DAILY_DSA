@@ -1,6 +1,6 @@
 /*
 
-Given two integers a and b in the form of strings. Return the last digit of ab.
+Given two integers a and b in the form of strings. Return the last digit of a^b.
 
 Examples:
 
