@@ -33,7 +33,15 @@ public static data_types{
         System.out.println(eligibleToVote);
 
         char firstChar = 'a';
-        System.out.println(firstChar);
+        System.out.println(firstChar); //a
+
+         char firstChar = 'a';
+        System.out.println(firstChar+2); //99
+
+
+         char firstChar = 'a';
+        System.out.println((char)firstChar+2); //c
+
 
 
 
