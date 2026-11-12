@@ -1,0 +1,22 @@
+// Logical Operator
+
+
+public class Logical_Operator {
+    public static void main(String[] args) {
+
+        int a = 10;
+        int b = 5;
+
+        System.out.println("Logical AND: " + (a > 5 && b < 10));
+
+        System.out.println("Logical OR: " + (a < 5 || b < 10));
+
+        System.out.println("Logical NOT: " + !(a > 5));
+    }
+}
+
+/*
+Logical AND: true
+Logical OR: true
+Logical NOT: false
+*/
