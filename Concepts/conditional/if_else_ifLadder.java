@@ -1,3 +1,5 @@
+package conditional;
+
 public class if_else_ifLadder {
     public static void main(String[] args) {
         int marks = 85;

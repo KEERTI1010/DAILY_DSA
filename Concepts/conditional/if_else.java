@@ -1,3 +1,5 @@
+package conditional;
+
 public class if_else {
     public static void main(String[] args) {
         int num = 7;
