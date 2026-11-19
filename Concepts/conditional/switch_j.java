@@ -1,6 +1,6 @@
 package conditional;
 
-public class switch {
+public class switch_j {
     public static void main(String[] args) {
         int day = 3;
 
