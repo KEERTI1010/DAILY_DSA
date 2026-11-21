@@ -9,10 +9,7 @@ public class hollowRect {
 		             System.out.print("* ");
 		        }
 		        else{
-		            if(c == 1){
-		                System.out.print("* ");
-		            }
-		            else if(c == 6){
+		            if(c == 1 || c == 6 ){
 		                System.out.print("* ");
 		            }
 		            else{
