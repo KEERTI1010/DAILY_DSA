@@ -10,7 +10,7 @@ public class common_char2 {
 		        char finalAns = (char)ans;
 		        System.out.print(finalAns);
 		    }
-		    
+		    System.out.println();
 		}
 	}
 }
