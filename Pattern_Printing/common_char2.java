@@ -8,7 +8,7 @@ public class common_char2 {
 
 		        int ans = n-c+'A';
 		        char finalAns = (char)ans;
-		        System.out.print(finalAns);
+		        System.out.print(finalAns + " ");
 		    }
 		    System.out.println();
 		}
