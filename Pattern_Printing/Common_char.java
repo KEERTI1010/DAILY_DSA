@@ -9,7 +9,7 @@ public class Common_char {
 		        int b = ('A'-1);
 		        int ans = a+b;
 		        char finalAns = (char)ans;
-		        System.out.print(finalAns);
+		        System.out.print(finalAns + " ");
 		    }
 		    System.out.println();
 		}
